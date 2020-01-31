@@ -31,6 +31,7 @@ class HomeController extends AbstractController
      */
     public function category_redirect()
     {
+        //homepage
         return $this->redirectToRoute('home');
     }
 
